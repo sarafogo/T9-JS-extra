@@ -13,3 +13,13 @@ A {nome} {Sobrenome} mora em São Paulo / SP, no bairro Centro, na rua "Rua dos 
 nº 1293.
 
 O retorno deverá ser template string*/
+
+function pegarNome(nome, sobrenome){
+  const endereco = {
+    rua: "Rua dos pinheiros",
+    numero: 1293,
+    bairro: "Centro",
+    cidade: "São Paulo",
+    uf: "SP"
+  };
+}
